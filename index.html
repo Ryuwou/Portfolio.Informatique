@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title data-key="title">Portfolio Informatique</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/21.6.1/i18next.min.js"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <header>
+    <div class="logo">Informatique</div>
+    <div class="burger-menu">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" data-key="home">Accueil</a></li>
+        <li><a href="#about" data-key="about">À propos</a></li>
+        <li><a href="#skills" data-key="skills">Compétences</a></li>
+        <li><a href="#projects" data-key="projects">Projets</a></li>
+      </ul>
+    </nav>
+    <div class="language-switcher">
+      <button class="lang-btn" id="fr">FR</button>
+      <button class="lang-btn" id="en">EN</button>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="kenza-glitch" data-key="name">Étudiante en MMI</h1>
+      <p class="tagline" data-key="tagline">Vélizy</p>
+      <a href="#about" class="cta-btn" data-key="cta">Découvrir</a>
+    </div>
+  </section>
+
+  <section id="about" class="hidden">
+    <h2 data-key="aboutTitle">Profil Technique</h2>
+    <p data-key="aboutText">
+      Actuellement étudiante en première année de BUT MMI à l'IUT de Vélizy. Passionnée par la programmation, la 3D, le graphisme et l'audiovisuel, je développe des projets mêlant technique et créativité. Ce portfolio présente mes réalisations et mon parcours
+    </p>
+  </section>
+
+  <section id="skills" class="hidden">
+    <h2 data-key="skillsTitle">Stack Technique</h2>
+    <div class="category">
+      <h3 class="skill-category" data-key="development">Développement</h3>
+      <div class="skill-list">
+        <div class="skill-card"><img src="img/logo_javascript.png" alt="JS" class="skill-logo"><h3>JavaScript</h3></div>
+        <div class="skill-card"><img src="img/logo_jquery.png" alt="jQuery" class="skill-logo"><h3>jQuery</h3></div>
+        <div class="skill-card"><img src="img/logo_csharp.png" alt="C#" class="skill-logo"><h3>C#</h3></div>
+        <div class="skill-card"><img src="img/logo_python.png" alt="Python" class="skill-logo"><h3>Python</h3></div>
+        <div class="skill-card"><img src="img/logo_cpp.png" alt="C++" class="skill-logo"><h3>C++</h3></div>
+        <div class="skill-card"><img src="img/logo_php.png" alt="PHP" class="skill-logo"><h3>PHP</h3></div>
+      </div>
+    </div>
+    <div class="category">
+      <h3 class="skill-category" data-key="algorithmics">Algorithmique & 3D</h3>
+      <div class="skill-list">
+        <div class="skill-card"><img src="img/logo_algorithme.png" alt="Logique" class="skill-logo"><h3>Logique Algorithme</h3></div>
+        <div class="skill-card"><img src="img/logo_blender.png" alt="Blender" class="skill-logo"><h3>Blender 3D</h3></div>
+      </div>
+    </div>
+  </section>
+
+<section id="projects" class="hidden">
+    <h2 data-key="projectsTitle">Projets</h2>
+    <div class="project-list">
+      
+      <div class="project-card">
+        <h3 data-key="project1">Hexapode</h3>
+        <p data-key="project1Desc">Algorithmique de mouvement et coordination moteurs pour robotique d'exploration.</p>
+        <a href="https://www.canva.com/design/DAGEdxudA_Q/z59n-F2l0iqGifleW5QAvw/edit" target="_blank" class="discover-btn" data-key="discover">Code Source</a>
+      </div>
+
+      <div class="project-card">
+        <h3 data-key="project2">Time Tempest</h3>
+        <p data-key="project2Desc">Gestion d'états et logique de boucle temporelle développée pour environnement de jeu</p>
+        <a href="projets/jeu-video.html" class="discover-btn" data-key="discover">Détails</a>
+      </div>
+
+      <div class="project-card">
+        <h3 data-key="project3">Japan Food</h3>
+        <p data-key="project3Desc">Conception d'un site culinaire avec des images et des liens vers des recettes, ainsi que des fonctionnalités interactives</p>
+        <a href="https://ryuwou.github.io/Japan-Food/" target="_blank" class="discover-btn" data-key="discover">Repo Git</a>
+      </div> <div class="project-card">
+        <h3 data-key="project4">Développement Jeu Web</h3>
+        <p data-key="project4Desc">Création d'un moteur de jeu interactif en JavaScript avec gestion des collisions et animations fluides.</p>
+        <a href="projets_01/jeu-web.html" class="discover-btn" data-key="discover">Découvrir</a>
+      </div>
+
+    </div> </section> <script src="script.js"></script>
+</body>
+</html>
