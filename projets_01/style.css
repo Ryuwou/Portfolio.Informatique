@@ -1,30 +1,29 @@
-/* Pour que la section prenne toute la largeur */
+
 .game-details {
   padding: 40px 20px;
   text-align: center;
-  color: #00ffcc; /* On garde ton style néon */
+  color: #00ffcc; 
 }
 
-/* Le conteneur de tes images */
+
 .gallery {
   display: flex;
-  flex-direction: column; /* Les images l'une au-dessus de l'autre */
-  align-items: center;    /* Centre les images horizontalement */
-  gap: 30px;              /* Espace entre les deux photos */
-  width: 100%;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 30px;              
 }
 
-/* LE STYLE POUR AGRANDIR TES IMAGES */
+
 .gallery img {
-  width: 100%;            /* L'image essaie de prendre toute la place */
-  max-width: 1000px;      /* Mais elle s'arrête à 1000px pour ne pas être pixelisée */
-  height: auto;           /* Garde les bonnes proportions (pas d'image écrasée) */
-  border: 3px solid #00ffcc; /* Ton cadre néon */
+  width: 100%;          
+  max-width: 1000px;      
+  height: auto;           
+  border: 3px solid #00ffcc; 
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
 }
 
-/* Style pour les titres si tu en as */
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
